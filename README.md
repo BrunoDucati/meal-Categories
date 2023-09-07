@@ -37,7 +37,6 @@ This project consists of three HTML files representing different pages of a web 
   - `index.js`: JavaScript code for the Meal Categories page.
   - `support.js`: JavaScript code for the Support Chat page.
 
-- **images**: Placeholder images used in the project.
 
 ## Usage
 
