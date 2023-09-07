@@ -8,21 +8,21 @@ This project consists of three HTML files representing different pages of a web 
 
 - **Cart**: Allows users to view and manage items in their shopping cart.
 
-- ![image](https://github.com/BrunoDucati/meal-Categories/assets/55319821/28099c50-3b26-444e-98d5-083b6762e4ed)
+ ![image](https://github.com/BrunoDucati/meal-Categories/assets/55319821/28099c50-3b26-444e-98d5-083b6762e4ed)
 
 
 - **Meal Categories**: Displays meal categories with the option to purchase items. Users can navigate between different categories.
 
-- ![image](https://github.com/BrunoDucati/meal-Categories/assets/55319821/f566bf6d-69f8-4f67-b784-9c52c863f8d2)
+ ![image](https://github.com/BrunoDucati/meal-Categories/assets/55319821/f566bf6d-69f8-4f67-b784-9c52c863f8d2)
 
-- ![image](https://github.com/BrunoDucati/meal-Categories/assets/55319821/bf1d172d-6dcc-41c8-80af-3815438b1a28)
+ ![image](https://github.com/BrunoDucati/meal-Categories/assets/55319821/bf1d172d-6dcc-41c8-80af-3815438b1a28)
 
-- ![image](https://github.com/BrunoDucati/meal-Categories/assets/55319821/7e2348e2-7173-4961-8e2e-acf9a1d49055)
+ ![image](https://github.com/BrunoDucati/meal-Categories/assets/55319821/7e2348e2-7173-4961-8e2e-acf9a1d49055)
 
 
 - **Support Chat**: Provides a chat interface for users to get support. Users can also navigate back to the index page or view their cart.
-
-- ![image](https://github.com/BrunoDucati/meal-Categories/assets/55319821/11a3e426-3aee-4bc4-a3d1-84047182de64)
+  
+ ![image](https://github.com/BrunoDucati/meal-Categories/assets/55319821/11a3e426-3aee-4bc4-a3d1-84047182de64)
 
 ## Project Structure
 
@@ -56,10 +56,6 @@ If you'd like to contribute to this project, please follow these steps:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions or suggestions, feel free to contact us at [your-email@example.com](mailto:your-email@example.com).
 
 ---
 
