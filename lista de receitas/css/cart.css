@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#cartItemList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cartItemList li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#cartItemList img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+#cartItemList h3 {
+  margin: 0;
+}
+
+#backToHomeButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#prevPageButton,
+#nextPageButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#prevPageButton:hover,
+#nextPageButton:hover {
+  background-color: #555;
+}
+
+#paginationControls {
+  text-align: center;
+}

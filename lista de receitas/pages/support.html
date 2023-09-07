@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/support.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support Chat</title>
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="upper-container">
+        <!-- Your existing header content goes here -->
+      </div>
+      <div class="footer-container">
+        <div id="chat-container">
+          <div id="chat-messages">
+            <!-- Chat messages will be added here dynamically -->
+          </div>
+          <input
+            type="text"
+            id="user-input"
+            placeholder="Type your message..."
+          />
+          <button id="send-button">Send</button>
+          <div class="redirect-buttons">
+            <button class="redirect-button" onclick="redirectToIndex()">
+              Go to Index
+            </button>
+            <button class="redirect-button" onclick="redirectToCart()">
+              Go to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../functions/support.js"></script>
+  </body>
+</html>

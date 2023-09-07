@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Background color for the entire page */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #ffffff; /* Background color for the content container */
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle border effect */
+  border-radius: 10px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* Add a scaling effect on hover */
+}
+
+.Texts {
+  margin-left: 20px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Styling for the category list */
+#categoryList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#categoryList li {
+  font-size: 18px;
+  margin: 5px 0;
+  opacity: 0; /* Initially hide list items */
+  transform: translateY(20px); /* Initial translation for slide-in effect */
+  animation: slideIn 0.5s ease-in-out forwards;
+}
+
+/* Animation for list items */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style for the "Previous" and "Next" buttons */
+.nav-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.nav-button:active {
+  transform: scale(0.95);
+}
+
+/* Style for the container of the "Previous" and "Next" buttons */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Additional styles for the "Buy" button */
+.product-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}

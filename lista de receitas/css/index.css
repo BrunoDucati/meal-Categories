@@ -1,0 +1,202 @@
+/* Common styles for both index.html and cart.html */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.upper-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 20px;
+}
+
+.Texts {
+  flex-grow: 1;
+}
+
+.Texts h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.Texts h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer; /* This line sets the cursor to pointer */
+}
+
+
+#cartItemCount {
+  font-size: 18px;
+}
+
+/* Pagination controls */
+.nav-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0; /* Remove padding to make it a circle */
+  width: 40px; /* Set a fixed width for the circle */
+  height: 40px; /* Set a fixed height for the circle */
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 50%; /* Make it a circle */
+  display: flex; /* Add display flex for centering */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+}
+
+/* Food list */
+#foodList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#foodList li {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#foodList img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+#foodList h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Smaller and bottom right corner support_icon */
+header.support-header {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#support_icon {
+  max-width: 40px;
+}
+
+/* Styles specific to cart.html */
+h1 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#cartItemList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cartItemList li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#cartItemList img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+#cartItemList h3 {
+  margin: 0;
+}
+
+#backToHomeButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#prevPageButton,
+#nextPageButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#prevPageButton:hover,
+#nextPageButton:hover {
+  background-color: #555;
+}
+
+#paginationControls {
+  text-align: center;
+}
