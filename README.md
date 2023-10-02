@@ -1,4 +1,4 @@
-# Project Name
+# Meal Categories
 
 A simple web project for managing a shopping cart and meal categories with support chat functionality.
 
